@@ -1,4 +1,4 @@
-Sample examples for the following Rxjava concepts
+Sample examples and keynote presentation for the following Rxjava concepts.
 
 1. ColdObservables<br>
 2. HotObservables<br>
