@@ -26,7 +26,6 @@ public class Subscriber_Get_Data_Based_On_Subscription_Time {
 
         flatMapObservable.subscribe(publishSubject);
         publishSubject.subscribe(subscriber1);
-
     }
 
     private static Subscriber<String> subscriber1 = new Subscriber<String>() {

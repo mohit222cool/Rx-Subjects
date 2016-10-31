@@ -27,6 +27,7 @@ public class PublishSubjectDemo {
 
     private static void addSomeDelay() {
         try {
+
             Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -67,4 +68,6 @@ public class PublishSubjectDemo {
             System.out.println("Subscriber 2 : " + Long);
         }
     };
+
+
 }

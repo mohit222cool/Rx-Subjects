@@ -1,29 +1,32 @@
-package rxsubject.variants;
+package rxsubject.connectableobservable;
 
 import rx.Observable;
 import rx.Subscriber;
-import rx.subjects.BehaviorSubject;
 
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by mohit.sharma on 10/19/16.
+ * Created by mohit.sharma on 10/18/16.
  */
-public class BehaviourSubjectDemoWithDefaultValue {
+public class AutoConnect {
+
     public static void main(String[] args) {
 
-        Observable<Long> cold = Observable.interval(1000, TimeUnit.MILLISECONDS);
+        Observable<Long> cold = Observable.create(subscriber -> {
+            for (long i = 1; i <= 2; i++) {
+                System.out.println("Source Emits : " + i);
+                subscriber.onNext(i);
+            }
+        });
+        Observable<Long> observable = cold.publish().autoConnect(2);
 
-        BehaviorSubject<Long> behaviorSubject = BehaviorSubject.create(-1L);
-        cold.subscribe(behaviorSubject);
-
+        observable.subscribe(subscriber1);
         addSomeDelay();
+        observable.subscribe(subscriber2);
+    }
 
-        behaviorSubject.subscribe(subscriber1);
-        behaviorSubject.subscribe(subscriber2);
 
-        addSomeDelay();
- }
+
 
     private static void addSomeDelay() {
         try {
@@ -49,7 +52,6 @@ public class BehaviourSubjectDemoWithDefaultValue {
         public void onNext(Long Long) {
             System.out.println("Subscriber 1 : " + Long);
         }
-
     };
 
     private static Subscriber<Long> subscriber2 = new Subscriber<Long>() {
@@ -68,6 +70,5 @@ public class BehaviourSubjectDemoWithDefaultValue {
             System.out.println("Subscriber 2 : " + Long);
         }
     };
+
 }
-
-

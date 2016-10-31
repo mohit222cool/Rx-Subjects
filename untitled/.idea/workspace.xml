@@ -2,142 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="360b7c6e-eda8-4a88-9e78-0d9976c00a96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/connectableobservable/RefCountConnectableObservable$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/connectableobservable/RefCountConnectableObservable$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/connectableobservable/RefCountConnectableObservable$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/connectableobservable/RefCountConnectableObservable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/disadvantages/Source_Is_Unpredictable$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/disadvantages/Source_Is_Unpredictable$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/disadvantages/Source_Is_Unpredictable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/disadvantages/Subscriber_Get_Data_Based_On_Subscription_Time$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/disadvantages/Subscriber_Get_Data_Based_On_Subscription_Time$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/disadvantages/Subscriber_Get_Data_Based_On_Subscription_Time.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/rxobservables/ColdObservable$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/rxobservables/ColdObservable$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/rxobservables/ColdObservable$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/rxobservables/ColdObservable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/rxobservables/HotObservable$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/rxobservables/HotObservable$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/rxobservables/HotObservable$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/rxobservables/HotObservable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/AsyncSubjectDemo$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/AsyncSubjectDemo$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/AsyncSubjectDemo$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/AsyncSubjectDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/BehaviourSubjectDemo$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/BehaviourSubjectDemo$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/BehaviourSubjectDemo$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/BehaviourSubjectDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/BehaviourSubjectDemoWithDefaultValue$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/BehaviourSubjectDemoWithDefaultValue$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/BehaviourSubjectDemoWithDefaultValue.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/PublishSubjectDemo$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/PublishSubjectDemo$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/PublishSubjectDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/ReplaySubjectDemo$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/ReplaySubjectDemo$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RxSubjects Examples/rxsubject/variants/ReplaySubjectDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/ColdObservable1$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/ColdObservable1$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/ColdObservable1$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/ColdObservable1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/ColdObservable2$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/ColdObservable2$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/ColdObservable2$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/ColdObservable2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/Demo$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/Demo$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/Demo$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/Demo$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/Demo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/Demo1$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/Demo1$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/Demo1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/Demo2$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/Demo2$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/Demo2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/EvenAndOdd$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/EvenAndOdd$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/EvenAndOdd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/HotObservableUsingConnectable$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/HotObservableUsingConnectable$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/HotObservableUsingConnectable$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/HotObservableUsingConnectable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/HotObservableUsingSubject$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/HotObservableUsingSubject$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/HotObservableUsingSubject$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/HotObservableUsingSubject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/HotObservableUsingSubject1$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/HotObservableUsingSubject1$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/HotObservableUsingSubject1$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/HotObservableUsingSubject1$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/HotObservableUsingSubject1$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/HotObservableUsingSubject1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/MapOperator$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/MapOperator$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/MapOperator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/MapOperatorUsingSubject$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/MapOperatorUsingSubject$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/MapOperatorUsingSubject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/PublishSubjectExample$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/PublishSubjectExample$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/Other/PublishSubjectExample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/AsyncSubjectDemo$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/AsyncSubjectDemo$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/AsyncSubjectDemo$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/AsyncSubjectDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/BehaviourSubjectDemo$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/BehaviourSubjectDemo$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/BehaviourSubjectDemo$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/BehaviourSubjectDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/BehaviourSubjectDemo2$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/BehaviourSubjectDemo2$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/BehaviourSubjectDemo2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/First$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/First$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/First$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/First.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/PublishSubjectDemo$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/PublishSubjectDemo$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/PublishSubjectDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/Reason1$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/Reason1$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/Reason1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/Reason2$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/Reason2$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/Reason2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/Reason_2$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/Reason_2$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/Reason_2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/RefCountConnectableObservable$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/RefCountConnectableObservable$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/RefCountConnectableObservable$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/RefCountConnectableObservable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/ReplaySubjectDemo$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/ReplaySubjectDemo$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/ReplaySubjectDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/Second$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/Second$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/Second$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/untitled/RxSubject/Second.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RxSubjects Examples.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rxsubject/connectableobservable/RefCountConnectableObservable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rxsubject/disadvantages/Source_Is_Unpredictable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rxsubject/disadvantages/Subscriber_Get_Data_Based_On_Subscription_Time.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rxsubject/rxobservables/ColdObservable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rxsubject/rxobservables/HotObservable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rxsubject/variants/AsyncSubjectDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rxsubject/variants/BehaviourSubjectDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rxsubject/variants/BehaviourSubjectDemoWithDefaultValue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rxsubject/variants/PublishSubjectDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rxsubject/variants/ReplaySubjectDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rxsubject/connectableobservable/AutoConnect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/rxsubject/connectableobservable/ReplayConnectable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rxsubject/connectableobservable/RefCountConnectableObservable.java" afterPath="$PROJECT_DIR$/src/rxsubject/connectableobservable/RefCountConnectableObservable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rxsubject/disadvantages/Source_Is_Unpredictable.java" afterPath="$PROJECT_DIR$/src/rxsubject/disadvantages/Source_Is_Unpredictable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rxsubject/disadvantages/Subscriber_Get_Data_Based_On_Subscription_Time.java" afterPath="$PROJECT_DIR$/src/rxsubject/disadvantages/Subscriber_Get_Data_Based_On_Subscription_Time.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rxsubject/rxobservables/ColdObservable.java" afterPath="$PROJECT_DIR$/src/rxsubject/rxobservables/ColdObservable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rxsubject/rxobservables/HotObservable.java" afterPath="$PROJECT_DIR$/src/rxsubject/rxobservables/HotObservable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rxsubject/variants/AsyncSubjectDemo.java" afterPath="$PROJECT_DIR$/src/rxsubject/variants/AsyncSubjectDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rxsubject/variants/BehaviourSubjectDemo.java" afterPath="$PROJECT_DIR$/src/rxsubject/variants/BehaviourSubjectDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rxsubject/variants/BehaviourSubjectDemoWithDefaultValue.java" afterPath="$PROJECT_DIR$/src/rxsubject/variants/BehaviourSubjectDemoWithDefaultValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rxsubject/variants/PublishSubjectDemo.java" afterPath="$PROJECT_DIR$/src/rxsubject/variants/PublishSubjectDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rxsubject/variants/ReplaySubjectDemo.java" afterPath="$PROJECT_DIR$/src/rxsubject/variants/ReplaySubjectDemo.java" />
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -158,69 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ColdObservable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rxsubject/rxobservables/ColdObservable.java">
+      <file leaf-file-name="AutoConnect.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/rxsubject/connectableobservable/AutoConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HotObservable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rxsubject/rxobservables/HotObservable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-140">
-              <caret line="24" column="33" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RefCountConnectableObservable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rxsubject/connectableobservable/RefCountConnectableObservable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsyncSubjectDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rxsubject/variants/AsyncSubjectDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1564#1565#0" expanded="true" />
-                <element signature="e#1635#1636#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BehaviourSubjectDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rxsubject/variants/BehaviourSubjectDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Source_Is_Unpredictable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rxsubject/disadvantages/Source_Is_Unpredictable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-80">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="240">
+              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -229,38 +47,20 @@
       <file leaf-file-name="BehaviourSubjectDemoWithDefaultValue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rxsubject/variants/BehaviourSubjectDemoWithDefaultValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="795">
+              <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+              <folding>
+                <element signature="e#1587#1588#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Subscriber_Get_Data_Based_On_Subscription_Time.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/rxsubject/disadvantages/Subscriber_Get_Data_Based_On_Subscription_Time.java">
+      <file leaf-file-name="AsyncSubjectDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rxsubject/variants/AsyncSubjectDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PublishSubjectDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rxsubject/variants/PublishSubjectDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReplaySubjectDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rxsubject/variants/ReplaySubjectDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
+            <state relative-caret-position="120">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -370,6 +170,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -392,94 +193,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rxsubject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="variants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rxsubject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rxsubject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="disadvantages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rxsubject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="connectableobservable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,6 +222,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="RxSubject" />
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/rxsubject" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ReplaySubjectDemo">
@@ -894,32 +613,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13364595" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -942,20 +661,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Other/ColdObservable1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Other/PublishSubjectExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Other/PublishSubjectExample.java" />
     <entry file="file://$PROJECT_DIR$/src/Subject.java" />
     <entry file="file://$PROJECT_DIR$/src/SubjectActAsObservable.java" />
     <entry file="file://$PROJECT_DIR$/src/MyClass.java" />
@@ -980,34 +686,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyDemo.java" />
-    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/functions/Action1.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/functions/Action.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/functions/Function.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/Observable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="2013" column="49" selection-start-line="2013" selection-start-column="49" selection-end-line="2013" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/functions/Action1.class" />
+    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/functions/Action.class" />
+    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/functions/Function.class" />
+    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/Observable.class" />
     <entry file="file://$PROJECT_DIR$/RxSubjects Examples.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1015,162 +697,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/Observer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/Subscriber.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/subjects/AsyncSubject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/subjects/Subject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/Observer.class" />
+    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/Subscriber.class" />
+    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/subjects/AsyncSubject.class" />
+    <entry file="jar://$USER_HOME$/Downloads/rxjava-1.2.0.jar!/rx/subjects/Subject.class" />
     <entry file="file://$PROJECT_DIR$/src/SubjectActAsObservable.java" />
     <entry file="file://$PROJECT_DIR$/src/MyProgram.java" />
     <entry file="file://$PROJECT_DIR$/src/Subject.java" />
     <entry file="file://$PROJECT_DIR$/src/MySubscriber.java" />
-    <entry file="file://$PROJECT_DIR$/src/Other/PublishSubjectExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Other/MapOperatorUsingSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Other/HotObservableUsingSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Other/HotObservableUsingConnectable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Other/EvenAndOdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Other/Demo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Other/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Other/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Other/ColdObservable2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Other/ColdObservable1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Other/MapOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Other/HotObservableUsingSubject1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="48" column="10" selection-start-line="46" selection-start-column="44" selection-end-line="48" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Other/PublishSubjectExample.java" />
+    <entry file="file://$PROJECT_DIR$/src/Other/MapOperatorUsingSubject.java" />
+    <entry file="file://$PROJECT_DIR$/src/Other/HotObservableUsingSubject.java" />
+    <entry file="file://$PROJECT_DIR$/src/Other/HotObservableUsingConnectable.java" />
+    <entry file="file://$PROJECT_DIR$/src/Other/EvenAndOdd.java" />
+    <entry file="file://$PROJECT_DIR$/src/Other/Demo2.java" />
+    <entry file="file://$PROJECT_DIR$/src/Other/Demo1.java" />
+    <entry file="file://$PROJECT_DIR$/src/Other/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/src/Other/ColdObservable2.java" />
+    <entry file="file://$PROJECT_DIR$/src/Other/ColdObservable1.java" />
+    <entry file="file://$PROJECT_DIR$/src/Other/MapOperator.java" />
+    <entry file="file://$PROJECT_DIR$/src/Other/HotObservableUsingSubject1.java" />
     <entry file="file://$PROJECT_DIR$/src/RxSubject/Third.java" />
-    <entry file="file://$PROJECT_DIR$/src/RxSubject/Reason2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rxsubject/variants/BehaviourSubjectDemoWithDefaultValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RxSubject/Reason2.java" />
     <entry file="file://$PROJECT_DIR$/src/rxsubject/variants/BehaviourSubjectDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
+        <state relative-caret-position="795">
           <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rxsubject/variants/AsyncSubjectDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1635#1636#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rxsubject/variants/PublishSubjectDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
+        <state relative-caret-position="885">
           <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
           <folding />
         </state>
@@ -1178,7 +737,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rxsubject/variants/ReplaySubjectDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
+        <state relative-caret-position="885">
           <caret line="66" column="44" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
           <folding />
         </state>
@@ -1186,27 +745,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rxsubject/rxobservables/ColdObservable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="285">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rxsubject/rxobservables/HotObservable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
+        <state relative-caret-position="360">
           <caret line="24" column="33" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rxsubject/connectableobservable/RefCountConnectableObservable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
+        <state relative-caret-position="195">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding />
         </state>
@@ -1214,7 +773,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rxsubject/disadvantages/Source_Is_Unpredictable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
+        <state relative-caret-position="165">
           <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding />
         </state>
@@ -1222,8 +781,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rxsubject/disadvantages/Subscriber_Get_Data_Based_On_Subscription_Time.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="525">
           <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rxsubject/variants/BehaviourSubjectDemoWithDefaultValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+          <folding>
+            <element signature="e#1587#1588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rxsubject/variants/AsyncSubjectDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rxsubject/connectableobservable/AutoConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding />
         </state>
       </provider>

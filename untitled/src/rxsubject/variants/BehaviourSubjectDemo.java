@@ -4,31 +4,32 @@ import rx.Observable;
 import rx.Subscriber;
 import rx.subjects.BehaviorSubject;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * Created by mohit.sharma on 10/19/16.
  */
 public class BehaviourSubjectDemo {
     public static void main(String[] args) {
 
-        Observable<Integer> coldObservable = Observable.create(new Observable.OnSubscribe<Integer>() {
-            @Override
-            public void call(Subscriber<? super Integer> subscriber) {
-                for (int i = 0; i <= 2; i++) {
-                    System.out.println("-------Emit " + i + " ---------------");
-                    subscriber.onNext(i);
-                }
-            }
-        });
-        
-        BehaviorSubject<Integer> behaviorSubject = BehaviorSubject.create(-1);
-
+        Observable<Long> cold = Observable.interval(1000, TimeUnit.MILLISECONDS);
+        BehaviorSubject<Long> behaviorSubject = BehaviorSubject.create(-1L);
         behaviorSubject.subscribe(subscriber1);
         behaviorSubject.subscribe(subscriber2);
+        cold.subscribe(behaviorSubject);
+        addSomeDelay();
+    }
 
-        coldObservable.subscribe(behaviorSubject);
- }
+    private static void addSomeDelay() {
+        try {
+            System.out.println("Wait for some seconds");
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 
-    private static Subscriber<Integer> subscriber1 = new Subscriber<Integer>() {
+    private static Subscriber<Long> subscriber1 = new Subscriber<Long>() {
         @Override
         public void onCompleted() {
 
@@ -40,13 +41,13 @@ public class BehaviourSubjectDemo {
         }
 
         @Override
-        public void onNext(Integer Integer) {
-            System.out.println("Subscriber 1 : " + Integer);
+        public void onNext(Long Long) {
+            System.out.println("Subscriber 1 : " + Long);
         }
 
     };
 
-    private static Subscriber<Integer> subscriber2 = new Subscriber<Integer>() {
+    private static Subscriber<Long> subscriber2 = new Subscriber<Long>() {
         @Override
         public void onCompleted() {
 
@@ -58,8 +59,8 @@ public class BehaviourSubjectDemo {
         }
 
         @Override
-        public void onNext(Integer Integer) {
-            System.out.println("Subscriber 2 : " + Integer);
+        public void onNext(Long Long) {
+            System.out.println("Subscriber 2 : " + Long);
         }
     };
 }

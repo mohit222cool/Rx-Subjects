@@ -13,15 +13,13 @@ public class ReplaySubjectDemo {
     public static void main(String[] args) {
 
         Observable<Long> coldObservable = Observable.interval(1000, TimeUnit.MILLISECONDS);
-        
-        ReplaySubject<Long> publishSubject = ReplaySubject.create();
-        coldObservable.subscribe(publishSubject);
 
+        ReplaySubject<Long> replaySubject = ReplaySubject.create();
+        coldObservable.subscribe(replaySubject);
+
+        replaySubject.subscribe(subscriber1);
         addSomeDelay();
-
-        publishSubject.subscribe(subscriber1);
-        publishSubject.subscribe(subscriber2);
-
+        replaySubject.subscribe(subscriber2);
         addSomeDelay();
  }
 
@@ -67,4 +65,6 @@ public class ReplaySubjectDemo {
             System.out.println("Subscriber 2 : " + Long);
         }
     };
+
+
 }
