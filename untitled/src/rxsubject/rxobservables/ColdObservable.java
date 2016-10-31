@@ -10,18 +10,15 @@ public class ColdObservable {
 
     public static void main(String[] args) {
 
-        Observable<Integer> coldObservable = Observable.create(new Observable.OnSubscribe<Integer>() {
-            @Override
-            public void call(Subscriber<? super Integer> subscriber) {
-                for (int i = 0; i <= 2; i++) {
-                    System.out.println("-------Emit " + i + " ---------------");
-                    subscriber.onNext(i);
-                }
+        Observable<Integer> cold = Observable.create(subscriber -> {
+            for (int i = 0; i <= 1; i++) {
+                System.out.println("Observable Emit " + i);
+                subscriber.onNext(i);
             }
         });
 
-        coldObservable.subscribe(subscriber1);
-        coldObservable.subscribe(subscriber2);
+        cold.subscribe(subscriber1);
+        cold.subscribe(subscriber2);
     }
 
     private static Subscriber<Integer> subscriber1 = new Subscriber<Integer>() {
@@ -39,7 +36,6 @@ public class ColdObservable {
         public void onNext(Integer integer) {
             System.out.println("Subscriber 1 :" + integer);
         }
-
     };
 
     private static Subscriber<Integer> subscriber2 = new Subscriber<Integer>() {
@@ -58,5 +54,4 @@ public class ColdObservable {
             System.out.println("Subscriber 2 :" + integer);
         }
     };
-
 }

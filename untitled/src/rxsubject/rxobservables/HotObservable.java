@@ -11,22 +11,17 @@ public class HotObservable {
 
     public static void main(String[] args) {
 
-        Observable<Integer> coldObservable = Observable.create(new Observable.OnSubscribe<Integer>() {
-            @Override
-            public void call(Subscriber<? super Integer> subscriber) {
-                for (int i = 0; i <= 2; i++) {
-                    System.out.println("-------Emit " + i + " ---------------");
-                    subscriber.onNext(i);
-                }
+        Observable<Integer> cold = Observable.create(subscriber -> {
+            for (int i = 0; i <= 2; i++) {
+                System.out.println("Hot Observable Emit " + i);
+                subscriber.onNext(i);
             }
         });
 
-        ConnectableObservable<Integer> connectableObservable = coldObservable.publish();
-//        connectableObservable.connect();
-        connectableObservable.subscribe(subscriber1);
-        connectableObservable.subscribe(subscriber2);
-
-        connectableObservable.connect();
+        ConnectableObservable<Integer> connectble = cold.publish();
+        connectble.subscribe(subscriber1);
+        connectble.subscribe(subscriber2);
+        connectble.connect();
     }
 
     private static Subscriber<Integer> subscriber1 = new Subscriber<Integer>() {
@@ -42,7 +37,7 @@ public class HotObservable {
 
         @Override
         public void onNext(Integer integer) {
-            System.out.println("Subscriber 1 :" + integer);
+            System.out.println("Subscriber 1 : " + integer);
         }
     };
 
@@ -59,8 +54,9 @@ public class HotObservable {
 
         @Override
         public void onNext(Integer integer) {
-            System.out.println("Subscriber 2 :" + integer);
+            System.out.println("Subscriber 2 : " + integer);
         }
     };
+
 
 }

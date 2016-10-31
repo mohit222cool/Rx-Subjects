@@ -4,24 +4,30 @@ import rx.Observable;
 import rx.Subscriber;
 import rx.observables.ConnectableObservable;
 
+import java.sql.Time;
 import java.util.concurrent.TimeUnit;
 
 /**
  * Created by mohit.sharma on 10/18/16.
  */
-public class RefCountConnectableObservable {
+public class ReplayConnectable {
 
     public static void main(String[] args) {
 
-        Observable<Long> cold = Observable.interval(1000,TimeUnit.MILLISECONDS);
-        Observable<Long> observable = cold.publish().refCount();
+        Observable<Long> coldObservable = Observable.create(subscriber -> {
+            for (long i = 0; i <= 5; i++) {
+                System.out.println("Source Emits : " + i);
+                subscriber.onNext(i);
+            }
+        });
 
-        addSomeDelay();
-        observable.subscribe(subscriber1);
-        addSomeDelay();
-        observable.subscribe(subscriber2);
-        addSomeDelay();
+        ConnectableObservable<Long> connectableObservable = coldObservable.replay();
+        connectableObservable.subscribe(subscriber1);
+        connectableObservable.connect();
+        connectableObservable.subscribe(subscriber2);
+
     }
+
 
     private static void addSomeDelay() {
         try {
@@ -63,6 +69,23 @@ public class RefCountConnectableObservable {
         @Override
         public void onNext(Long Long) {
             System.out.println("Subscriber 2 :" + Long);
+        }
+    };
+
+    private static Subscriber<Long> subscriber3 = new Subscriber<Long>() {
+        @Override
+        public void onCompleted() {
+
+        }
+
+        @Override
+        public void onError(Throwable throwable) {
+
+        }
+
+        @Override
+        public void onNext(Long Long) {
+            System.out.println("Subscriber 3 :" + Long);
         }
     };
 

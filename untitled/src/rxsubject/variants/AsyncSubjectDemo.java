@@ -10,22 +10,16 @@ import rx.subjects.AsyncSubject;
 public class AsyncSubjectDemo {
     public static void main(String[] args) {
 
-        Observable<Integer> coldObservable = Observable.create(new Observable.OnSubscribe<Integer>() {
-            @Override
-            public void call(Subscriber<? super Integer> subscriber) {
-                for (int i = 0; i <= 5; i++) {
-                    System.out.println("-------Emit " + i + " ---------------");
-                    subscriber.onNext(i);
-                }
-
-                subscriber.onCompleted();
+        Observable<Integer> cold = Observable.create(subscriber -> {
+            for (int i = 0; i <= 2; i++) {
+                System.out.println("Source Emits : " + i);
+                subscriber.onNext(i);
             }
+            subscriber.onCompleted();
         });
 
         AsyncSubject<Integer> asyncSubject = AsyncSubject.create();
-
-        coldObservable.subscribe(asyncSubject);
-
+        cold.subscribe(asyncSubject);
         asyncSubject.subscribe(subscriber1);
         asyncSubject.subscribe(subscriber2);
     }
@@ -64,4 +58,8 @@ public class AsyncSubjectDemo {
             System.out.println("Subscriber 2 : " + integer);
         }
     };
+
+
+
+
 }
